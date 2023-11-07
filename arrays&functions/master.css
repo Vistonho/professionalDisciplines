@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: fcfcfc;
+}
+
+
+/* ПОЗИЦИОНИРОВАНИЕ FOOTER */
+
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+}
+
+.header {
+    display: grid;
+}
+
+.main {
+    display: grid;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer__copyright{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+
+/* СТИЛИ НАВИГАЦИИ */
+.header,
+.footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.ul {
+    /* display: flex;
+    justify-content: space-between; */
+    padding-left: 0 !important;
+}
+
+/* .li{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #44944A;
+} */
+.a:hover {
+    background-color: #173619 !important;
+    color: white !important;
+}
+
+/* СТИЛИ MAIN */
+.main {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.h1{
+    text-indent: 50px;
+}
+
+.p{
+    text-indent: 50px;
+    text-align: justify;
+}

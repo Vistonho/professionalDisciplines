@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    background-color: rgb(180, 35, 35);
+}
+.ul1 {
+    background: rgb(202, 32, 32);
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  list-style: none;
+}
+a{
+    background: rgb(180, 35, 35);
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.it1 {
+  display:inline-block;
+}
+ul {
+  list-style: none;
+}
