@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Пока этот скрипт не выполнится, загрузка HTML не начнется -->
+    <!-- <script src="main3.js"></script> -->
+
+</head>
+
+<body>
+    <h1>JS</h1>
+    <div class="class">Long</div>
+    <div class="class">live</div>
+    <div class="class">the</div>
+
+    <script>
+        // этот js применяется только к прогруженному HTML
+        // произойдёт ошибка
+        document.querySelector('#id');
+    </script>
+
+    <div class="class">Milky</div>
+    <div class="class" id="id">Way!</div>
+    
+    <!-- Поэтому script указывается внизу body -->
+
+    <!-- <script src="main3.js"></script> -->
+    <!-- <script src="main4.js"></script> -->
+    <script src="main5.js"></script>
+
+</body>
+
+</html>
